@@ -1,0 +1,30 @@
+# environment
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# package build
+dist/
+*.egg-info/
+
+# data (local only, never committed)
+data/
+
+# editor
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# coverage reports
+.coverage
+htmlcov/
